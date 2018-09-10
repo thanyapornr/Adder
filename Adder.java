@@ -6,7 +6,7 @@ class Adder {
         int x = sc.nextInt();
         System.out.print("Y = ");
         int y = sc.nextInt();
-        int z = x/y;
+        int z = x-y;
         System.out.println("Sum = "+z);
     }
 }
